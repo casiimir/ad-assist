@@ -1,0 +1,23 @@
+.Spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+
+  .icon {
+    color: #26268b;
+    font-size: 6rem;
+    animation: animate 2s infinite;
+  }
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
